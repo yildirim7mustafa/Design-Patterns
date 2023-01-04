@@ -1,0 +1,37 @@
+import java.util.List;
+
+public abstract class Car {
+    private String brand = null;
+    private String model = null;
+    private int horsePower = 0;
+
+    public Car(String brand, String model, int horsePower) {
+        this.brand = brand;
+        this.model = model;
+        this.horsePower = horsePower;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getHorsePower() {
+        return horsePower;
+    }
+
+    public void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
+    }
+}
